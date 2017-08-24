@@ -1,0 +1,6 @@
+framework module HTTPRequestBlock {
+  umbrella header "HTTPRequestBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HTTPRequestBlock'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HTTPRequestBlock.'
+  s.summary          = 'HTTPRequestBlock is the intermediator between Alamofire and API calls'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is the intermediator between Alamofire and API calls. Callback contains certain objects such as error, JSON object, and Path.
                        DESC
 
   s.homepage         = 'https://github.com/RPiyush/HTTPRequestBlock'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'RPiyush' => 'Piyush' }
+  s.author           = { 'RPiyush' => 'Piyush Rathi' }
   s.source           = { :git => 'https://github.com/RPiyush/HTTPRequestBlock.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/piyusharathi'
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 4.3'
 end

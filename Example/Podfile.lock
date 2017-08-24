@@ -1,0 +1,16 @@
+PODS:
+  - HTTPRequestBlock (0.1.0)
+
+DEPENDENCIES:
+  - HTTPRequestBlock (from `../`)
+
+EXTERNAL SOURCES:
+  HTTPRequestBlock:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTTPRequestBlock: 65a8e25efd33b9b7fd3391bb58f279444f28f581
+
+PODFILE CHECKSUM: d70e5e88a53f02bcc6e5c9cdef179de40cb1bd5b
+
+COCOAPODS: 1.1.1
